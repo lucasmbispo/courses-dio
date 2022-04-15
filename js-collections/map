@@ -1,0 +1,22 @@
+// map: A collection of arrays in the [key, value] format.
+
+// -- Can have keys of any type, the vs the Object key that is always a String.
+// -- But, all values have the same type.
+// -- Have the length property
+// -- Used when key values are unknown
+// -- Easier than iterate than objects
+
+
+const myMap = new Map()
+
+myMap.set('apple', 'fruit');
+// Map(1){"apple" => "fruit"}
+
+myMap.get(apple);
+// "fruit"
+
+myMap.delete("apple");
+// true
+
+myMap.get("apple");
+// undefined

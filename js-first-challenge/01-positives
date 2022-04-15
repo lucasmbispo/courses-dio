@@ -1,0 +1,26 @@
+let positivos = [];
+let negativos = [];
+let quantidadePositivos = positivos.length;
+let quantidadeNegativos = negativos.length;
+
+const readline = require("readline");
+
+const ql = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+for (let i = 0; i < 6; i++) {
+
+  const valorInformadoPeloUsuario = readline;
+
+}
+
+  if(valorInformadoPeloUsuario < 0){
+    this._valorInformadoPeloUsuario = negativos.push(); 
+  }
+    if(valorInformadoPeloUsuario > 0){
+    this._valorInformadoPeloUsuario = positivos.push(); 
+  }
+
+print(`${quantidadePositivos} valores positivos`);

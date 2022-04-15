@@ -1,0 +1,46 @@
+
+// ECMA Error
+// Occurs in runtime.
+// Composed by: Message, Name, Line and Call Stack
+
+
+// DOMException
+
+// DOM related errors
+
+
+
+// Error handling
+
+//return
+
+function verificaPalindromo(string){
+    if (!string) return "String inválida";
+
+    return string === string.split('').reverse().join('')
+}
+
+verificaPalindromo('cat');
+
+//throw
+
+function verificaPalindrom(string){
+    if (!string) throw "String Inválida";
+
+    return string === string.split('').reverse().join('')
+}
+verificaPalindrom('cat');
+
+//try, catch & finally
+
+function  tryCatchExemplo(string){
+    try{
+        verificaPalindromo(string)
+    }
+    catch(e){
+        console.log(e)
+    }
+    finally{
+        console.log('A string enviada foi: ' +string);
+    }
+}
