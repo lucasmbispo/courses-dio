@@ -8,6 +8,5 @@ interface Brazilian extends Omit<Person, 'nationality'>{
 
 }
 
-const brazilian: Brazilian ={
-
-}
+//const brazilian: Brazilian ={
+//}

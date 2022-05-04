@@ -5,8 +5,8 @@ interface IAnimal {
   name: string;
   type: 'land' | 'aquatic';
   domestic: boolean;
-
 }
+
 interface IFeline extends IAnimal{
   nightVision: boolean;
 }
